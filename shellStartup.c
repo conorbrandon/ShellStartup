@@ -20,8 +20,7 @@ char *stripToLastParens(char *cwd) {
 		return cwd;
 	}
 
-int main(int argc, char *argv[])
-{
+int main(int argc, char *argv[]) {
 	int counter = 0;
 	char files[1024][1024];
 	memset(&files[counter], 0, 1024);
@@ -48,9 +47,9 @@ int main(int argc, char *argv[])
 	"|   -----------     ::: |",
 	"`-----------------------'"
 	};
-	char cwd[PATH_MAX];
 	time_t t = time(NULL);
 	struct tm tm = *localtime(&t);
+	char cwd[PATH_MAX];
 	printf(KWHT "         ______________ \n");	
 	printf(KWHT "        /             /|");	printf(KRED "\tToday is %s", ctime(&t));	
 	printf(KWHT "       /             / |");	printf(KYEL "\tYou are at %s. You can navigate to:\n" KWHT, getcwd(cwd, sizeof(cwd)) ? stripToLastParens(cwd) : "");
