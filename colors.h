@@ -1,5 +1,5 @@
-#ifndef DEBUG_H
-#define DEBUG_H
+#ifndef COLORS_H
+#define COLORS_H
 
 #define COLOR
 
@@ -25,4 +25,4 @@
 #define KBWN ""
 #endif
 
-#endif /* DEBUG_H */
+#endif /* COLORS_H */
