@@ -1,0 +1,1 @@
+cc -o shellStartup shellStartup.c
