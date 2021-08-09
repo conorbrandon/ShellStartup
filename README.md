@@ -5,8 +5,8 @@ This is a silly little program I wrote that I have set to run when `zsh` is star
 <table>
     <tbody>
         <tr>
-            <td><img src="./images/shellStartupHome.jpg" alt="shellStartupHome"></td>
-            <td><img src="./images/shellStartupApps.jpg" alt="ShellStartupApps"></td>
+            <td><img src="http://conorbrandon.com/images/shellStartupHome.jpg" alt="shellStartupHome"></td>
+            <td><img src="http://conorbrandon.com/images/shellStartupApps.jpg" alt="ShellStartupApps"></td>
         </tr>
     </tbody>
 </table>
